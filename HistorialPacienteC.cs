@@ -8,7 +8,7 @@ namespace ProyectoFinalPrograII
     public class HistorialPacienteC : AgendaC 
     {
         public string IdConsulta { get; set; }
-        public DateTime FechaHoraConsulta { get; set; }
+        public DateTime FechaHoraConsultas { get; set; }
         public string TemperaturaP { get; set; }
         public string PresionP { get; set; }
         public string CodigoMedicamento { get; set; }
