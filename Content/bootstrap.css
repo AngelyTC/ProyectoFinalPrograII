@@ -1288,6 +1288,8 @@ h6,
 }
 p {
   margin: 0 0 10px;
+    font-size: large;
+    font-weight: 700;
 }
 .lead {
   margin-bottom: 20px;
