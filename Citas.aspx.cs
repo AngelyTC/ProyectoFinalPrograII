@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Newtonsoft.Json;
 
 namespace ProyectoFinalPrograII
 {
@@ -17,11 +18,22 @@ namespace ProyectoFinalPrograII
 
         public void Guardar()
         {
+            string json = JsonConvert.SerializeObject(citas);
+
+
+            string archivo = Server.MapPath("agenda.json");
+
+
+            System.IO.File.WriteAllText(archivo, json);
 
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            AgendaC cita = new AgendaC ();
+            cita.NITPaciente = TextBoxnit.Text;
+
+
 
         }
     }

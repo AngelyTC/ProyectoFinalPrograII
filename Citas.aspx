@@ -4,16 +4,16 @@
         <br />
         Citas</p>
     <p style="font-size: medium">
-        Nit del paciente:<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        Nit del paciente:<asp:TextBox ID="TextBoxnit" runat="server"></asp:TextBox>
     </p>
     <p style="font-size: medium">
-        Fecha:<asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        Fecha:<asp:TextBox ID="TextBoxfecha" runat="server"></asp:TextBox>
     </p>
     <p style="font-size: medium">
-        Hora inicio:<asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+        Hora inicio:<asp:TextBox ID="TextBoxHI" runat="server"></asp:TextBox>
     </p>
     <p style="font-size: medium">
-        Hora fin:<asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+        Hora fin:<asp:TextBox ID="TextBoxHf" runat="server"></asp:TextBox>
     </p>
     <p>
         <asp:Button ID="Button1" runat="server" Height="37px" OnClick="Button1_Click" Text="Agendar cita" Width="200px" />
