@@ -1,0 +1,34 @@
+[
+  {
+    "NITPaciente": "nit 1",    
+    "NombrePaciente": "nombre 1",
+    "ApellidoPaciente": "apellido1",
+    "DireccionPaciente": "direccion 1",
+    "FechaNPaciente": "2022-03-28T00:00:00",
+    "TelefonoPaciente": "7841"
+  },
+  {
+    "NITPaciente": "nit 2",
+    "NombrePaciente": "nom2",
+    "ApellidoPaciente": "apell",
+    "DireccionPaciente": "direcc ",
+    "FechaNPaciente": "2022-03-27T00:00:00",
+    "TelefonoPaciente": "7448"
+  },
+  {
+    "NITPaciente": "nit 3",
+    "NombrePaciente": "nombre 3",
+    "ApellidoPaciente": "apellido 3",
+    "DireccionPaciente": "direccion 3",
+    "FechaNPaciente": "2022-05-29T00:00:00",
+    "TelefonoPaciente": "4787"
+  },
+  {
+    "NITPaciente": "nit 4",
+    "NombrePaciente": "nombre 4",
+    "ApellidoPaciente": "apellido 4",
+    "DireccionPaciente": "direccion 4",
+    "FechaNPaciente": "2022-05-29T00:00:00",
+    "TelefonoPaciente": "47587"
+  }
+]

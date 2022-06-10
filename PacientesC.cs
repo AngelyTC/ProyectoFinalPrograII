@@ -11,7 +11,7 @@ namespace ProyectoFinalPrograII
         public string NombrePaciente { get; set; }
         public string ApellidoPaciente { get; set; }
         public string DireccionPaciente { get; set; }
-        public string FechaNPaciente { get; set; }
+        public DateTime FechaNPaciente { get; set; }
         public string TelefonoPaciente { get; set; }
     }
 }
