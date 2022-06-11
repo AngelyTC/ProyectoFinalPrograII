@@ -16,7 +16,11 @@ namespace ProyectoFinalPrograII
         static List<MedicamentosC> medicamentosH = new List<MedicamentosC>();
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string archivo = Server.MapPath("Consultas.json");
+            StreamReader jsonStream = File.OpenText(archivo);
+            string json = jsonStream.ReadToEnd();
+            jsonStream.Close();
+            ingresoHistorial = JsonConvert.DeserializeObject<List<HistorialPacienteC>>(json);
         }
 
         protected void btnIngresoConsulta_Click(object sender, EventArgs e)
