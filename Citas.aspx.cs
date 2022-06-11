@@ -13,10 +13,11 @@ namespace ProyectoFinalPrograII
     {
         static List<AgendaC> citaTemp = new List<AgendaC>();
        static List <AgendaC> citas = new List <AgendaC> ();
-        DateTime cod;
+        string cod;
         string cod2 = " ";
         protected void Page_Load(object sender, EventArgs e)
         {
+           Leer();
             string archivo = Server.MapPath("agenda.json");
             StreamReader jsonStream = File.OpenText(archivo);
             string json = jsonStream.ReadToEnd();
@@ -25,7 +26,14 @@ namespace ProyectoFinalPrograII
 
         }
 
-
+        public void Leer()
+        {
+            string archivo = Server.MapPath("agenda.json");
+            StreamReader jsonStream = File.OpenText(archivo);
+            string json = jsonStream.ReadToEnd();
+            jsonStream.Close();
+            citas = JsonConvert.DeserializeObject<List<AgendaC>>(json);
+        }
 
         public void Guardar()
         {
@@ -43,7 +51,7 @@ namespace ProyectoFinalPrograII
         {
             AgendaC cita = new AgendaC();
             cita.NITPaciente = TextBoxnit.Text;
-            cita.FechaCita = Calendar1.SelectedDate;
+            cita.FechaCita = TextBoxfecha.Text;
             cita.HoraInicioCita = TextBoxHI.Text;
             cita.HoraFinCita = TextBoxHf.Text;
             citas.Add(cita);
@@ -54,7 +62,7 @@ namespace ProyectoFinalPrograII
 
         protected void Button2_Click(object sender, EventArgs e)
         {
-           cod = Calendar1.SelectedDate;
+           cod = TextBoxfecha.Text;
             cod2 = TextBoxHI.Text;
             bool encontrar = false;
 

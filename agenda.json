@@ -1,1 +1,13 @@
-[{"FechaCita":"2022-06-02T00:00:00","HoraInicioCita":"4","HoraFinCita":"6","NITPaciente":"1","NombrePaciente":null,"ApellidoPaciente":null,"DireccionPaciente":null,"FechaNPaciente":null,"TelefonoPaciente":null}]
+[
+  {
+    "FechaCita": "3 Agosto 2022",
+    "HoraInicioCita": "4",
+    "HoraFinCita": "5",
+    "NITPaciente": "1",
+    "NombrePaciente": null,
+    "ApellidoPaciente": null,
+    "DireccionPaciente": null,
+    "FechaNPaciente": null,
+    "TelefonoPaciente": null
+  }
+]

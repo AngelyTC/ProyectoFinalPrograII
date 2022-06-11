@@ -7,7 +7,7 @@
         Nit del paciente:<asp:TextBox ID="TextBoxnit" runat="server"></asp:TextBox>
     </p>
     <p style="font-size: medium">
-        Fecha:<asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+        Fecha:<asp:TextBox ID="TextBoxfecha" runat="server"></asp:TextBox>
     </p>
     <p style="font-size: medium">
         Hora inicio:<asp:TextBox ID="TextBoxHI" runat="server"></asp:TextBox>
