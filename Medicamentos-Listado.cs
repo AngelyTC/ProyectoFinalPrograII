@@ -5,7 +5,8 @@ using System.Web;
 
 namespace ProyectoFinalPrograII
 {
-    public class Medicamentos_Listado
+    public class Medicamentos_Listado 
     {
+        public string MedicamentosRecetas { get; set; }
     }
 }

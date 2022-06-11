@@ -10,6 +10,6 @@ namespace ProyectoFinalPrograII
         public string CodigoMedicamento { get; set; }
         public string IngredienteGenerico { get; set; }
         public string LaboratorioMarcaC { get; set; }
-        public string Enfermedades { get; set; }
+        public List<Medicamentos_Listado> enfermedades { get; set; }
     }
 }

@@ -1,0 +1,12 @@
+[
+  {
+    "CodigoMedicamento": "001",
+    "IngredienteGenerico": "Droga",
+    "LaboratorioMarcaC": "Telmex",
+    "enfermedades": [
+      { "MedicamentosRecetas": "Dolor de cabeza" },
+      { "MedicamentosRecetas": "Dolor muscular" },
+      { "MedicamentosRecetas": "Nauseas" }
+    ]
+  }
+]

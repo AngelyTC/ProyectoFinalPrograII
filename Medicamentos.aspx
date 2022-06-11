@@ -27,6 +27,6 @@
     <asp:Button ID="ButtonIngresoListadoMedi" runat="server" Text="Ingreso de enfermedades" OnClick="ButtonIngresoListadoMedi_Click" />
     <br />
     <br />
-    <asp:Button ID="Button1" runat="server" Text="Ingreso de todos datos " />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Ingreso de todos datos " />
     <br />
 </asp:Content>
