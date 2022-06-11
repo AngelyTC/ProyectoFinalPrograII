@@ -4,8 +4,9 @@
         HOSPITAL LA ULTIMA CAMA</h1>
     <h3>
         Ingreso de medicamentos</h3>
-    <p>
-        Código del medicamento</p>
+    <h3>
+        Código del medicamento</h3>
+    <h3>
     <asp:TextBox ID="TextBoxCodigoMedi" runat="server"></asp:TextBox>
     <br />
     <br />
@@ -29,4 +30,5 @@
     <br />
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Ingreso de todos datos " />
     <br />
+    </h3>
 </asp:Content>
