@@ -29,7 +29,6 @@ namespace ProyectoFinalPrograII
 
         protected void btnReEntre_Click(object sender, EventArgs e)
         {
-            string fecha1, fecha2;
             int contador = -1;
 
             citas = citas.OrderBy(f => f.FechaCita).ToList();
