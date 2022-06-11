@@ -15,6 +15,9 @@
     <p style="font-size: medium">
         Hora fin:<asp:TextBox ID="TextBoxHf" runat="server"></asp:TextBox>
     </p>
+    <p style="font-size: medium">
+        <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Verificar" />
+    </p>
     <p>
         <asp:Button ID="Button1" runat="server" Height="37px" OnClick="Button1_Click" Text="Agendar cita" Width="200px" />
     </p>
