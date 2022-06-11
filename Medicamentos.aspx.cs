@@ -29,13 +29,13 @@ namespace ProyectoFinalPrograII
         private void Guardar()
         {
             string json = JsonConvert.SerializeObject(medicamentosCs);
-            string archivo = Server.MapPath("Medicamentos.json");
+            string archivo = Server.MapPath("Medicina.json");
             System.IO.File.WriteAllText(archivo, json);
         }
 
         private void Leer()
         {
-            string archivo2 = Server.MapPath("Medicamentos.json");
+            string archivo2 = Server.MapPath("Medicina.json");
             StreamReader json1 = File.OpenText(archivo2);
             string json2 = json1.ReadToEnd();
             json1.Close();

@@ -16,11 +16,12 @@ namespace ProyectoFinalPrograII
         static List<Editar_Medicamentos> editarmedi = new List<Editar_Medicamentos>();
         protected void Page_Load(object sender, EventArgs e)
         {
-            string archivo2 = Server.MapPath("Medicamentos.json");
-            StreamReader json1 = File.OpenText(archivo2);
-            string json2 = json1.ReadToEnd();
-            json1.Close();
-            medicamentosCs = JsonConvert.DeserializeObject<List<MedicamentosC>>(json2);
+            string archivo = Server.MapPath("Medicina.json");
+            StreamReader jsonStream = File.OpenText(archivo);
+            string json = jsonStream.ReadToEnd();
+            jsonStream.Close();
+
+            medicamentosCs = JsonConvert.DeserializeObject<List<MedicamentosC>>(json);
         }
 
         /*private void CargarGridview()
@@ -36,7 +37,7 @@ namespace ProyectoFinalPrograII
         private void Guardar()
         {
             string json = JsonConvert.SerializeObject(medicamentosCs);
-            string archivo = Server.MapPath("Medicamentos.json");
+            string archivo = Server.MapPath("Medicina.json");
             System.IO.File.WriteAllText(archivo, json);
         }
 
