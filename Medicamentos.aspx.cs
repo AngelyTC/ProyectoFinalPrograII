@@ -21,7 +21,7 @@ namespace ProyectoFinalPrograII
         private void Guardar()
         {
             string json = JsonConvert.SerializeObject(medicamentosCs);
-            string archivo = Server.MapPath("Medicina.json");
+            string archivo = Server.MapPath("Medi.json");
             System.IO.File.WriteAllText(archivo, json);
         }
 
@@ -31,7 +31,17 @@ namespace ProyectoFinalPrograII
             listado.Enfermedades = TextListMedi.Text;
             listadoenfermedades.Add(listado);
             Guardar();
-            
+        }
+
+        protected void ButtonIngresogeneral_Click(object sender, EventArgs e)
+        {
+            MedicamentosC medicamentosC = new MedicamentosC();
+            medicamentosC.CodigoMedicamento = TextCodigoMedi.Text;
+            medicamentosC.IngredienteGenerico = TextIngredienteMedi.Text;
+            medicamentosC.LaboratorioMarcaC = TextLabMedi.Text;
+            medicamentosC.Enfermedad = listadoenfermedades.ToArray().ToList();
+            medicamentosCs.Add(medicamentosC);
+            Guardar();
         }
     }
 }

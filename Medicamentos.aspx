@@ -25,5 +25,5 @@
 &nbsp;-
         <asp:Button ID="ButtonIngresarEnfermedad" runat="server" OnClick="ButtonIngresarEnfermedad_Click" Text="Ingresar enfermedad" />
     </p>
-    <asp:Button ID="ButtonIngresogeneral" runat="server" Text="INGRESAR DATOS" />
+    <asp:Button ID="ButtonIngresogeneral" runat="server" OnClick="ButtonIngresogeneral_Click" Text="INGRESAR DATOS" />
 </asp:Content>

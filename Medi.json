@@ -1,1 +1,12 @@
-﻿
+[
+  {
+    "CodigoMedicamento": "001",
+    "IngredienteGenerico": "ABC",
+    "LaboratorioMarcaC": "Claro",
+    "Enfermedad": [
+      { "Enfermedades": "Dolor de muelas" },
+      { "Enfermedades": "Dolor muscular" },
+      { "Enfermedades": "Dolor de cabeza" }
+    ]
+  }
+]
