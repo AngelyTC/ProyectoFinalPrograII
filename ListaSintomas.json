@@ -1,1 +1,19 @@
-[{"CodigoSintoma":"1","DescripcionSintoma":"dolor"},{"CodigoSintoma":"2","DescripcionSintoma":" dolor de cabeza"},{"CodigoSintoma":" 3","DescripcionSintoma":" vista borrosa"},{"CodigoSintoma":" 4","DescripcionSintoma":" dolor al caminar"}]
+[
+    {
+        "CodigoSintoma": "1",
+        
+        "DescripcionSintoma": "ardor"
+    },
+    {
+        "CodigoSintoma": "2",
+        "DescripcionSintoma": " dolor de cabeza"
+    },
+    {
+        "CodigoSintoma": " 3",
+        "DescripcionSintoma": " vista borrosa"
+    },
+    {
+        "CodigoSintoma": " 4",
+        "DescripcionSintoma": " dolor al caminar"
+    }
+]
