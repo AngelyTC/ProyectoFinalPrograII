@@ -1,0 +1,44 @@
+[
+    {
+        "IdConsulta": "1",
+        
+        "FechaHoraConsultas": "2022-05-31T00:00:00",
+        "TemperaturaP": "30",
+        "PresionP": "54",
+        "CodigoMedicamento": null,
+        "SintomasPaciente": [
+            {
+                "CodigoSintoma": null,
+                "DescripcionSintoma": "dolor"
+            },
+            {
+                "CodigoSintoma": null,
+                "DescripcionSintoma": "picazon"
+            }
+        ],
+        "DiagnosticoP": "migraña",
+        "TratamientoP": "paracetamol",
+        "RecetaP": [
+            {
+                "CodigoMedicamento": null,
+                "IngredienteGenerico": null,
+                "LaboratorioMarcaC": null,
+                "Enfermedad": null,
+                "Dosis": "3",
+                "horaAdministracion": "6 a 8"
+            }
+        ],
+        "VistaProximaP": "2022-06-02T00:00:00",
+        "CostoConsultaP": "500",
+        "imagenesP": "C: \\Users\\USUARIO\\Desktop\\imagenesProgra\\descarga.jpgdescarga.jpg",
+        "FechaCita": null,
+        "HoraInicioCita": null,
+        "HoraFinCita": null,
+        "NITPaciente": "4563564",
+        "NombrePaciente": null,
+        "ApellidoPaciente": null,
+        "DireccionPaciente": null,
+        "FechaNPaciente": null,
+        "TelefonoPaciente": null
+    }
+]

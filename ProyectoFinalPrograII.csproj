@@ -107,6 +107,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CrearConsultaPaciente.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="EditarMedicamentos.aspx" />
     <Content Include="EditarSintomasPaciente.aspx" />
@@ -126,6 +127,7 @@
     <Content Include="agenda.json" />
     <Content Include="Medi.json" />
     <Content Include="ListaSintomas.json" />
+    <Content Include="Consultas.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Medicamentos.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -187,6 +189,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrearConsultaPaciente.aspx.cs">
+      <DependentUpon>CrearConsultaPaciente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrearConsultaPaciente.aspx.designer.cs">
+      <DependentUpon>CrearConsultaPaciente.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

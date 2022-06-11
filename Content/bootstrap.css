@@ -2350,6 +2350,7 @@ pre code {
 }
 table {
   background-color: transparent;
+    font-size: small;
 }
 table col[class*="col-"] {
   position: static;

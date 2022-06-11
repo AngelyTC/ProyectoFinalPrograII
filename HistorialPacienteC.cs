@@ -12,11 +12,11 @@ namespace ProyectoFinalPrograII
         public string TemperaturaP { get; set; }
         public string PresionP { get; set; }
         public string CodigoMedicamento { get; set; }
-        public List<SintomasC> sintomasPaciente{ get; set; }
+        public List<SintomasC> SintomasPaciente { get; set; }
         public string DiagnosticoP { get; set; }
         public string TratamientoP { get; set; }
-        public string RecetaP { get; set; }
-        public string VistaProximaP { get; set; }
+        public List<MedicamentosC> RecetaP { get; set; }
+        public DateTime VistaProximaP { get; set; }
         public string CostoConsultaP { get; set; }
         public string imagenesP { get; set; }
     }
