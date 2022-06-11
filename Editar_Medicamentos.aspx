@@ -31,6 +31,6 @@
     <p>
         &nbsp;</p>
     <p>
-        <asp:Button ID="ButtonActualizarDatos" runat="server" Text="Actualizar datos" />
+        <asp:Button ID="ButtonActualizarDatos" runat="server" Text="Actualizar datos" OnClick="ButtonActualizarDatos_Click" />
     </p>
 </asp:Content>

@@ -16,25 +16,22 @@ namespace ProyectoFinalPrograII
         static List<Editar_Medicamentos> editarmedi = new List<Editar_Medicamentos>();
         protected void Page_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void CargarGridview()
-        {
-            GridView1.DataSource = null;
-            GridView1.Refresh();
-            GridView1.DataSource = resumen;
-            GridView1.Refresh();
-        }
-
-        private void Leer()
-        {
             string archivo2 = Server.MapPath("Medicamentos.json");
             StreamReader json1 = File.OpenText(archivo2);
             string json2 = json1.ReadToEnd();
             json1.Close();
             medicamentosCs = JsonConvert.DeserializeObject<List<MedicamentosC>>(json2);
         }
+
+        /*private void CargarGridview()
+        {
+            GridView1.DataSource = null;
+            GridView1.Refresh();
+            GridView1.DataSource = resumen;
+            GridView1.Refresh();
+        }*/
+
+ 
 
         private void Guardar()
         {
@@ -62,10 +59,29 @@ namespace ProyectoFinalPrograII
             }
             if (!encontrar)
             {
-                Response.Write("<script>alert('El codigo de sintoma no se ha encotrado')</script>");
+                Response.Write("<script>alert('El codigo de medicamentos no existe')</script>");
                 codigo = "";
                 TextBoxIngreMedic.Text = "";
                 TextBoxLabMedic.Text = "";
+
+            }
+        }
+
+        protected void ButtonActualizarDatos_Click(object sender, EventArgs e)
+        {
+            foreach (var u in medicamentosCs)
+            {
+                //en modificar se usa findIndex
+                int editadoAdmin = medicamentosCs.FindIndex(c => c.CodigoMedicamento == codigo);
+
+                if (editadoAdmin > -1)
+                {
+                    medicamentosCs[editadoAdmin].IngredienteGenerico = TextBoxIngreMedic.Text;
+                    medicamentosCs[editadoAdmin].LaboratorioMarcaC = TextBoxLabMedic.Text;
+
+                    Guardar();
+                    break;
+                }
 
             }
         }
