@@ -7,7 +7,7 @@ namespace ProyectoFinalPrograII
 {
     public class AgendaC : PacientesC
     {
-        public DateTime FechaCita { get; set; }
+        public string FechaCita { get; set; }
         public string HoraInicioCita { get; set; }
         public string HoraFinCita { get; set; }
     }
