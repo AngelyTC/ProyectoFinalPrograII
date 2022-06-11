@@ -124,8 +124,10 @@
     <Content Include="ClassDiagram1.cd" />
     <Content Include="agenda.json" />
     <Content Include="Medi.json" />
+    <Content Include="pacientes.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Medicamentos.aspx" />
+    <Content Include="Paciente.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -219,6 +221,13 @@
       <DependentUpon>Medicamentos.aspx</DependentUpon>
     </Compile>
     <Compile Include="MedicamentosC.cs" />
+    <Compile Include="Paciente.aspx.cs">
+      <DependentUpon>Paciente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paciente.aspx.designer.cs">
+      <DependentUpon>Paciente.aspx</DependentUpon>
+    </Compile>
     <Compile Include="PacientesC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SintomasC.cs" />
