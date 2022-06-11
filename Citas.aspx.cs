@@ -71,7 +71,7 @@ namespace ProyectoFinalPrograII
                 AgendaC horae = citaTemp.Find(a => a.HoraInicioCita == cod2);
                 AgendaC fechae = citaTemp.Find(a => a.FechaCita == cod);
 
-                if (fechae == null && horae == null)
+                if (fechae == null || horae == null)
                 {
                     Response.Write("<script>alert('Puede agendar la cita')</script>");
                     encontrar = true;
