@@ -39,7 +39,7 @@ namespace ProyectoFinalPrograII
                     GridView1.DataSource = paciente;
                     GridView1.DataBind();
                     encontrar = true;
-
+                    break;
                 }
             }
 
