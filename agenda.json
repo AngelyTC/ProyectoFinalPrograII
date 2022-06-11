@@ -11,7 +11,29 @@
     "TelefonoPaciente": null
   },
   {
-    "FechaCita": "2 Julio 2022",
+    "FechaCita": "5 Julio 2022",
+    "HoraInicioCita": "3",
+    "HoraFinCita": "4",
+    "NITPaciente": "1",
+    "NombrePaciente": null,
+    "ApellidoPaciente": null,
+    "DireccionPaciente": null,
+    "FechaNPaciente": null,
+    "TelefonoPaciente": null
+  },
+  {
+    "FechaCita": "5 Julio 2022",
+    "HoraInicioCita": "3",
+    "HoraFinCita": "4",
+    "NITPaciente": "1",
+    "NombrePaciente": null,
+    "ApellidoPaciente": null,
+    "DireccionPaciente": null,
+    "FechaNPaciente": null,
+    "TelefonoPaciente": null
+  },
+  {
+    "FechaCita": "5 Julio 2022",
     "HoraInicioCita": "3",
     "HoraFinCita": "4",
     "NITPaciente": "1",

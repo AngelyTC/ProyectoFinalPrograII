@@ -28,7 +28,7 @@ namespace ProyectoFinalPrograII
             pacienteTemp.NombrePaciente = txtNombre.Text;
             pacienteTemp.ApellidoPaciente = TxtApellido.Text;
             pacienteTemp.DireccionPaciente = txtDireccion.Text;
-            pacienteTemp.FechaNPaciente = CalendarNacimiento.SelectedDate;
+            pacienteTemp.FechaNPaciente = CalendarNacimiento.SelectedDate.ToString();
             pacienteTemp.TelefonoPaciente = txtTelefono.Text;
 
             int pocicionPaciente = pacientes.FindIndex(n => n.NITPaciente == pacienteTemp.NITPaciente);
