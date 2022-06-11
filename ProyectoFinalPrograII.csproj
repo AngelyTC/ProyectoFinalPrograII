@@ -190,6 +190,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HistorialPacienteC.cs" />
+    <Compile Include="Medicamentos-Listado.cs" />
     <Compile Include="Medicamentos.aspx.cs">
       <DependentUpon>Medicamentos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
