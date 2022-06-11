@@ -22,6 +22,13 @@ namespace ProyectoFinalPrograII
             medicamentosCs = JsonConvert.DeserializeObject<List<MedicamentosC>>(json);
         }
 
+        private void Guardar()
+        {
+            string json = JsonConvert.SerializeObject(medicamentosCs);
+            string archivo = Server.MapPath("Medi.json");
+            System.IO.File.WriteAllText(archivo, json);
+        }
+
         protected void Button1_Click(object sender, EventArgs e)
         {
             codigo = TextCodMedi.Text;
@@ -46,6 +53,26 @@ namespace ProyectoFinalPrograII
                 TextIngreMedi.Text = "";
                 TextLabMedi.Text = "";
 
+            }
+        }
+
+        protected void ButtonActualizarDatos_Click(object sender, EventArgs e)
+        {
+            codigo = TextCodMedi.Text;
+           
+            foreach (var u in medicamentosCs)
+            {
+                int editar = medicamentosCs.FindIndex(c => c.CodigoMedicamento == codigo);
+
+                if (editar > -1)
+                {
+                    medicamentosCs[editar].IngredienteGenerico = TextIngreMedi.Text;
+                    medicamentosCs[editar].LaboratorioMarcaC = TextLabMedi.Text;
+                    Guardar();
+                    Response.Write("<script>alert('El Producto fue editado')</script>");
+                    break;
+                    
+                }
             }
         }
     }

@@ -1,8 +1,8 @@
 [
   {
     "CodigoMedicamento": "001",
-    "IngredienteGenerico": "ABC",
-    "LaboratorioMarcaC": "Claro",
+    "IngredienteGenerico": "DEF",
+    "LaboratorioMarcaC": "Tigo",
     "Enfermedad": [
       { "Enfermedades": "Dolor de muelas" },
       { "Enfermedades": "Dolor muscular" },
