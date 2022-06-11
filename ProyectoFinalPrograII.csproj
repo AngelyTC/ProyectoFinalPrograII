@@ -129,6 +129,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="ClassDiagram1.cd" />
     <Content Include="ListaSintomas.json" />
+    <Content Include="HistorialPaciente.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="IngresoSintomas.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -243,6 +244,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Imágenes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
