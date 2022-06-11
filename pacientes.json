@@ -1,11 +1,11 @@
 [
   {
     "NITPaciente": "nit 1",    
-    "NombrePaciente": "nombre 1",
+    "NombrePaciente": "nom",
     "ApellidoPaciente": "apellido 1",
     "DireccionPaciente": "direccion 1",
     "FechaNPaciente": "2022-05-29T00:00:00",
-    "TelefonoPaciente": "745874"
+    "TelefonoPaciente": "745874874"
   },
   {
     "NITPaciente": "nit 2",
