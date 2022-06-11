@@ -50,6 +50,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -125,7 +126,9 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="ClassDiagram1.cd" />
+    <Content Include="ListaSintomas.json" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="IngresoSintomas.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -189,6 +192,13 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="HistorialPacienteC.cs" />
+    <Compile Include="IngresoSintomas.aspx.cs">
+      <DependentUpon>IngresoSintomas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IngresoSintomas.aspx.designer.cs">
+      <DependentUpon>IngresoSintomas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MedicamentosC.cs" />
     <Compile Include="PacientesC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
