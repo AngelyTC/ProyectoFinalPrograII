@@ -15,7 +15,7 @@ namespace ProyectoFinalPrograII
         public List<SintomasC> sintomasPaciente{ get; set; }
         public string DiagnosticoP { get; set; }
         public string TratamientoP { get; set; }
-        public string RecetaP { get; set; }
+        public List<MedicamentosC> RecetaP { get; set; }
         public string VistaProximaP { get; set; }
         public string CostoConsultaP { get; set; }
         public string imagenesP { get; set; }

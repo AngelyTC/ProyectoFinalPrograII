@@ -11,5 +11,7 @@ namespace ProyectoFinalPrograII
         public string IngredienteGenerico { get; set; }
         public string LaboratorioMarcaC { get; set; }
         public string Enfermedades { get; set; }
+        public string Dosis { get; set; }
+        public string horaAdministracion { get; set; }
     }
 }
