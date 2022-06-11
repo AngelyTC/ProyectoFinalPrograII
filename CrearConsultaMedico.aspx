@@ -32,7 +32,7 @@
         Síntomas</p>
     <p>
         <asp:TextBox ID="txtSintomas" runat="server" style="font-size: small"></asp:TextBox>
-        <asp:Button ID="btnIngreSintomas" runat="server" OnClick="btnIngreSintomas_Click" Text="Ingrese sintomas" />
+        <asp:Button ID="btnIngreSintomas" runat="server" OnClick="btnIngreSintomas_Click" Text="Ingrese sintomas" Height="37px" Width="251px" />
     </p>
     <p style="font-size: small">
         Diagnóstico</p>
