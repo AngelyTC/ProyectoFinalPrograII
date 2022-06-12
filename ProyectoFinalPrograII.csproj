@@ -134,6 +134,7 @@
     <Content Include="Medicamentos.aspx" />
     <Content Include="Paciente.aspx" />
     <Content Include="ReporteEnfermedadesComunes.aspx" />
+    <Content Include="ReporteMedicamento.aspx" />
     <Content Include="ReportesAdministrativo.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -266,6 +267,13 @@
     </Compile>
     <Compile Include="ReporteEnfermedadesComunes.aspx.designer.cs">
       <DependentUpon>ReporteEnfermedadesComunes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReporteMedicamento.aspx.cs">
+      <DependentUpon>ReporteMedicamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteMedicamento.aspx.designer.cs">
+      <DependentUpon>ReporteMedicamento.aspx</DependentUpon>
     </Compile>
     <Compile Include="ReportesAdministrativo.aspx.cs">
       <DependentUpon>ReportesAdministrativo.aspx</DependentUpon>
