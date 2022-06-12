@@ -11,7 +11,7 @@ namespace ProyectoFinalPrograII
 {
     public partial class ReporteMedicamentos : System.Web.UI.Page
     {
-        List<MedicamentosC> mediTemp = new List<MedicamentosC>();
+        List<HistorialPacienteC> mediTemp = new List<HistorialPacienteC>();
         
 
         protected void Page_Load(object sender, EventArgs e)
@@ -20,23 +20,13 @@ namespace ProyectoFinalPrograII
             StreamReader jsonStream = File.OpenText(archivo);
             string json = jsonStream.ReadToEnd();
             jsonStream.Close();
-            mediTemp = JsonConvert.DeserializeObject<List<MedicamentosC>>(json);
+            mediTemp = JsonConvert.DeserializeObject<List<HistorialPacienteC>>(json);
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-      
-            foreach (var a in mediTemp)
-            {
-                MedicamentosC buscar = mediTemp.Find(c => c.CodigoMedicamento != null);
-                               
 
-                if (a.CodigoMedicamento != null)
-                {
-                    GridView1.DataSource = mediTemp;
-                    GridView1.DataBind();
-                }
-            }
+           
 
         }
     }
