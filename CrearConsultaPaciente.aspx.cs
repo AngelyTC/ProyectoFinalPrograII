@@ -41,19 +41,19 @@ namespace ProyectoFinalPrograII
 
             try
             {
-                FileUpload1.SaveAs(Server.MapPath(@"C: \Users\USUARIO\Desktop\imagenesProgra\descarga.jpg") + archivoOrigen);
-                Label1.Text = "Exitosamente Subido";
+                FileUpload1.SaveAs(Server.MapPath(@"C: \Users\USUARIO\Desktop\imagenesProgra\descarga.jpg") + archivoOrigen);    
             }
 
             catch (Exception ex)
             {
-                Label1.Text = "No se pudo subir, se generó el siguiente error:  " + ex.Message;
+              
             }
 
             string archivo = @"C: \Users\USUARIO\Desktop\imagenesProgra\descarga.jpg" + FileUpload1.FileName;
             ingresoH.imagenesP = archivo;
 
             ingresoHistorial.Add(ingresoH);
+          
             GuardarHistorialPaciente();
             medicamentosH.Clear();
             sintomasH.Clear();

@@ -195,6 +195,7 @@
     <Compile Include="Citas.aspx.designer.cs">
       <DependentUpon>Citas.aspx</DependentUpon>
     </Compile>
+    <Compile Include="comunEnfermedad.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

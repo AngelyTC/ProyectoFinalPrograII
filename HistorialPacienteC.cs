@@ -5,7 +5,7 @@ using System.Web;
 
 namespace ProyectoFinalPrograII
 {
-    public class HistorialPacienteC : AgendaC 
+    public class HistorialPacienteC : PacientesC
     {
         public string IdConsulta { get; set; }
         public DateTime FechaHoraConsultas { get; set; }

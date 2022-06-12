@@ -92,8 +92,7 @@
         </asp:GridView>
     </p>
     <p>
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
-    </p>
+        &nbsp;</p>
     <p>
         <asp:Button ID="btnIngresoConsulta" runat="server" OnClick="btnIngresoConsulta_Click" style="font-size: small" Text="IngresoConsulta" />
     </p>

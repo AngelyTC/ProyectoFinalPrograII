@@ -1,1 +1,109 @@
-[{"IdConsulta":"2","FechaHoraConsultas":"2022-06-15T00:00:00","TemperaturaP":"37","PresionP":"145","CodigoMedicamento":null,"SintomasPaciente":[{"CodigoSintoma":null,"DescripcionSintoma":"Nausea"},{"CodigoSintoma":null,"DescripcionSintoma":"Presión alta"}],"DiagnosticoP":"Hipertensión","TratamientoP":"Pastilla ","RecetaP":[{"CodigoMedicamento":null,"IngredienteGenerico":null,"LaboratorioMarcaC":null,"Enfermedad":null,"Dosis":"1 ","horaAdministracion":"cada 12 hrs"}],"VistaProximaP":"2022-06-17T00:00:00","CostoConsultaP":"300","imagenesP":"C: \\Users\\USUARIO\\Desktop\\imagenesProgra\\descarga.jpgcosito2.png","FechaCita":null,"HoraInicioCita":null,"HoraFinCita":null,"NITPaciente":"1","NombrePaciente":null,"ApellidoPaciente":null,"DireccionPaciente":null,"FechaNPaciente":null,"TelefonoPaciente":null},{"IdConsulta":"3","FechaHoraConsultas":"2022-06-08T00:00:00","TemperaturaP":"38","PresionP":"165","CodigoMedicamento":null,"SintomasPaciente":[{"CodigoSintoma":null,"DescripcionSintoma":"Dolor"},{"CodigoSintoma":null,"DescripcionSintoma":"ardor"}],"DiagnosticoP":"Alergia","TratamientoP":"Jarabe y reposo","RecetaP":[{"CodigoMedicamento":null,"IngredienteGenerico":null,"LaboratorioMarcaC":null,"Enfermedad":null,"Dosis":"1 cuharada","horaAdministracion":"4 a 8 hrs"}],"VistaProximaP":"2022-06-11T00:00:00","CostoConsultaP":"400","imagenesP":"C: \\Users\\USUARIO\\Desktop\\imagenesProgra\\descarga.jpgCAD2.png","FechaCita":null,"HoraInicioCita":null,"HoraFinCita":null,"NITPaciente":"2","NombrePaciente":null,"ApellidoPaciente":null,"DireccionPaciente":null,"FechaNPaciente":null,"TelefonoPaciente":null}]
+[
+    {
+        "IdConsulta": "1",
+        
+        "FechaHoraConsultas": "2022-05-30T00:00:00",
+        "TemperaturaP": "30",
+        "PresionP": "54",
+        "CodigoMedicamento": null,
+        "SintomasPaciente": [
+            {
+                "CodigoSintoma": null,
+                "DescripcionSintoma": "ardor"
+            },
+            {
+                "CodigoSintoma": null,
+                "DescripcionSintoma": "dolor"
+            }
+        ],
+        "DiagnosticoP": "fractura",
+        "TratamientoP": "paracetamol",
+        "RecetaP": [
+            {
+                "CodigoMedicamento": null,
+                "IngredienteGenerico": null,
+                "LaboratorioMarcaC": null,
+                "Enfermedad": null,
+                "Dosis": "3",
+                "horaAdministracion": "6 a 8"
+            }
+        ],
+        "VistaProximaP": "2022-06-07T00:00:00",
+        "CostoConsultaP": "500",
+        "imagenesP": "C: \\Users\\USUARIO\\Desktop\\imagenesProgra\\descarga.jpgdescarga.jpg",
+        "NITPaciente": "4563564",
+        "NombrePaciente": null,
+        "ApellidoPaciente": null,
+        "DireccionPaciente": null,
+        "FechaNPaciente": null,
+        "TelefonoPaciente": null
+    },
+    {
+        "IdConsulta": "2",
+        "FechaHoraConsultas": "2022-05-31T00:00:00",
+        "TemperaturaP": "44",
+        "PresionP": "65",
+        "CodigoMedicamento": null,
+        "SintomasPaciente": [
+            {
+                "CodigoSintoma": null,
+                "DescripcionSintoma": "dolor"
+            }
+        ],
+        "DiagnosticoP": "fractura",
+        "TratamientoP": "paracetamol",
+        "RecetaP": [
+            {
+                "CodigoMedicamento": null,
+                "IngredienteGenerico": null,
+                "LaboratorioMarcaC": null,
+                "Enfermedad": null,
+                "Dosis": "3",
+                "horaAdministracion": "6 a 8"
+            }
+        ],
+        "VistaProximaP": "2022-06-07T00:00:00",
+        "CostoConsultaP": "500",
+        "imagenesP": "C: \\Users\\USUARIO\\Desktop\\imagenesProgra\\descarga.jpgdescarga.jpg",
+        "NITPaciente": "456356454",
+        "NombrePaciente": null,
+        "ApellidoPaciente": null,
+        "DireccionPaciente": null,
+        "FechaNPaciente": null,
+        "TelefonoPaciente": null
+    },
+    {
+        "IdConsulta": "3",
+        "FechaHoraConsultas": "2022-06-07T00:00:00",
+        "TemperaturaP": "44",
+        "PresionP": "65",
+        "CodigoMedicamento": null,
+        "SintomasPaciente": [
+            {
+                "CodigoSintoma": null,
+                "DescripcionSintoma": "picazon"
+            }
+        ],
+        "DiagnosticoP": "alergia",
+        "TratamientoP": "paracetamol",
+        "RecetaP": [
+            {
+                "CodigoMedicamento": null,
+                "IngredienteGenerico": null,
+                "LaboratorioMarcaC": null,
+                "Enfermedad": null,
+                "Dosis": "3",
+                "horaAdministracion": "6 a 8"
+            }
+        ],
+        "VistaProximaP": "2022-06-07T00:00:00",
+        "CostoConsultaP": "500",
+        "imagenesP": "C: \\Users\\USUARIO\\Desktop\\imagenesProgra\\descarga.jpgdescarga.jpg",
+        "NITPaciente": "6545",
+        "NombrePaciente": null,
+        "ApellidoPaciente": null,
+        "DireccionPaciente": null,
+        "FechaNPaciente": null,
+        "TelefonoPaciente": null
+    }
+]

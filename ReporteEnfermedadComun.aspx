@@ -5,10 +5,13 @@
         Enfermedades Comunes</p>
     <p>
         <asp:GridView ID="GridView1" runat="server" Height="312px" Width="740px">
+            <Columns>
+                <asp:BoundField DataField="DiagnosticoP" HeaderText="Enfermedad" />
+            </Columns>
         </asp:GridView>
     </p>
     <p>
-        <asp:Button ID="btnBuscar" runat="server" Text="Buscar" />
+        <asp:Button ID="btnBuscar" runat="server" OnClick="btnBuscar_Click" Text="Buscar" />
     </p>
     <p>
     </p>
