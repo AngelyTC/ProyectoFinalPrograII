@@ -1,6 +1,6 @@
 [
   {
-    "CodigoMedicamento": "1",
+    "CodigoMedicamento": "001",
     "IngredienteGenerico": "DEF",
     "LaboratorioMarcaC": "Tigo",
     "Enfermedad": [
@@ -9,6 +9,4 @@
       { "Enfermedades": "Dolor de cabeza" }
     ]
   }
-
-
 ]
