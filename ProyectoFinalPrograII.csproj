@@ -133,6 +133,7 @@
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Medicamentos.aspx" />
     <Content Include="Paciente.aspx" />
+    <Content Include="ReporteEnfermedadesComunes.aspx" />
     <Content Include="ReportesAdministrativo.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -259,6 +260,13 @@
     </Compile>
     <Compile Include="PacientesC.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReporteEnfermedadesComunes.aspx.cs">
+      <DependentUpon>ReporteEnfermedadesComunes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReporteEnfermedadesComunes.aspx.designer.cs">
+      <DependentUpon>ReporteEnfermedadesComunes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ReportesAdministrativo.aspx.cs">
       <DependentUpon>ReportesAdministrativo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
