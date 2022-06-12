@@ -1,18 +1,1 @@
-[
-  {
-    "NITPaciente": "1",    
-    "NombrePaciente": "nom 1",
-    "ApellidoPaciente": "ape 1",
-    "DireccionPaciente": "dire 1",
-    "FechaNPaciente": "29-May-10 12:00:00 AM",
-    "TelefonoPaciente": "745874"
-  },
-  {
-    "NITPaciente": "2",
-    "NombrePaciente": "nom 2",
-    "ApellidoPaciente": "ape 2",
-    "DireccionPaciente": "dire 2",
-    "FechaNPaciente": "30-May-05 12:00:00 AM",
-    "TelefonoPaciente": "745874"
-  }
-]
+[{"NITPaciente":"1","NombrePaciente":"nom 1","ApellidoPaciente":"ape 1","DireccionPaciente":"dire 1","FechaNPaciente":"29-May-10 12:00:00 AM","TelefonoPaciente":"745874"},{"NITPaciente":"2","NombrePaciente":"nom 2","ApellidoPaciente":"ape 2","DireccionPaciente":"dire 2","FechaNPaciente":"30-May-05 12:00:00 AM","TelefonoPaciente":"745874"},{"NITPaciente":"4","NombrePaciente":"Angely","ApellidoPaciente":"Thomas","DireccionPaciente":"4ta avenida","FechaNPaciente":"7/06/2022 00:00:00","TelefonoPaciente":"234234"}]

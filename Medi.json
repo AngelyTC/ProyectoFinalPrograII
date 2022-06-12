@@ -1,12 +1,1 @@
-[
-  {
-    "CodigoMedicamento": "001",
-    "IngredienteGenerico": "DEF",
-    "LaboratorioMarcaC": "Tigo",
-    "Enfermedad": [
-      { "Enfermedades": "Dolor de muelas" },
-      { "Enfermedades": "Dolor muscular" },
-      { "Enfermedades": "Dolor de cabeza" }
-    ]
-  }
-]
+[{"CodigoMedicamento":"3","IngredienteGenerico":"acetaminofen","LaboratorioMarcaC":"Lab1","Enfermedad":[{"Enfermedades":"Dolor"},{"Enfermedades":"Ardor"}],"Dosis":null,"horaAdministracion":null}]
