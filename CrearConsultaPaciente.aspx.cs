@@ -47,7 +47,7 @@ namespace ProyectoFinalPrograII
 
             catch (Exception ex)
             {
-                Label1.Text = "No se pudo subir, se generó el siguiente error:  " + ex.Message;
+                
             }
 
             string archivo = @"C: \Users\USUARIO\Desktop\imagenesProgra\descarga.jpg" + FileUpload1.FileName;
