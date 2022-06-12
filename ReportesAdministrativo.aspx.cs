@@ -29,25 +29,17 @@ namespace ProyectoFinalPrograII
 
         protected void btnReEntre_Click(object sender, EventArgs e)
         {
-            int contador = -1;
-
-            citas = citas.OrderBy(f => f.FechaCita).ToList();
-
-            for (int i = 0; i < citas.Count; i++)
+            int contador = 0;
+            foreach (var i in citas)
             {
-                if (txtFecha1.Text == citas[i].FechaCita)
+                int aux1 = string.Compare(i.FechaCita, txtFecha1.Text);
+                int aux2 = string.Compare(i.FechaCita, txtFecha2.Text);
+                if ((aux1 == 0)||(aux2 == 0))
                 {
-                    for (int j = i; j <= citas.Count; j++)
-                    {
-                        contador++;
-                        lbEntre.Text = contador.ToString();
-                        if (txtFecha2.Text == citas[i].FechaCita)
-                        {
-                            break;
-                        }
-                    }
+                    contador += 1;
                 }
             }
+            lbEntre.Text = "El total de pacientes entre estas dos fechas es: " + contador;
         }
         private void leer()
         {
