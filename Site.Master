@@ -52,8 +52,22 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
-                        <li><a runat="server" href="~/About">Acerca de</a></li>
-                        <li><a runat="server" href="~/Contact">Contacto</a></li>
+                        <li><a runat="server" href="~/Paciente">Ingreso de pacientes</a></li>
+                        <li><a runat="server" href="~/UpdatePaciente">Editar Paciente</a></li>
+                        <li><a runat="server" href="~/Citas">Agendar Citas</a></li>
+                        <li><a runat="server" href="~/EliminarCita">Eliminar Cita</a></li>
+                        <li><a runat="server" href="~/Medicamentos">Ingreso Medicamentos</a></li>
+                        <li><a runat="server" href="~/EditarMedicamentos">Editar Medicamentos</a></li>
+                        <li><a runat="server" href="~/SintomasPaciente">Ingreso de Sintomas</a></li>
+                        <li><a runat="server" href="~/EditarSíntomaPaciente">Editar Sintomas</a></li>
+                        <li><a runat="server" href="~/ReporteAdministrativo">Reportes Administrativos</a></li>
+                        <li><a runat="server" href="~/CrearConsultaPaciente">Ingresar Consulta</a></li>
+                        <li><a runat="server" href="~/BuscarHistorial">Buscar historial paciente</a></li>
+                        <li><a runat="server" href="~/ReporteEnfermedadesComunes">Enfermedades mas comunes</a></li>
+                        <li><a runat="server" href="~/ReporteConsulta">Edad promedio</a></li>
+                        <li><a runat="server" href="~/ReporteMedicamentos">Listado Medicamentos</a></li>
+                        <li><a runat="server" href="~/ReporteDinero">Total Dinero</a></li>
+
                     </ul>
                 </div>
             </div>

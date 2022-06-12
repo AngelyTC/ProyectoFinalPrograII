@@ -126,6 +126,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="ClassDiagram1.cd" />
     <Content Include="agenda.json" />
+    <Content Include="Login.aspx" />
     <Content Include="Medi.json" />
     <Content Include="ListaSintomas.json" />
     <Content Include="Consultas.json" />
@@ -246,6 +247,13 @@
     </Compile>
     <Compile Include="HistorialPacienteC.cs" />
     <Compile Include="ListadoEnfermedad.cs" />
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Medicamentos.aspx.cs">
       <DependentUpon>Medicamentos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
